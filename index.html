@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="containers">
+        <div class="left">
+            <div class="circle circle1"></div>
+            <div class="circle circle2"></div>
+            <div class="circle circle3"></div>
+            <h2 class="a">Let's Make it Happen Together!</h2>
+        </div>
+        <div class="right">
+            <div class="container">
+                <div class="form-container">
+                    <h2>Login</h2>
+                    <form id="login-form">
+                        <input type="email" id="email" placeholder="Enter your email" required />
+                        <input type="password" id="password" placeholder="Enter your password" required />
+                        <button type="submit">Login</button>
+                    </form>
+                    <br>
+                    <p>Don't have an account? <a href="#" id="sign-up-link">Sign up</a></p>
+                </div>
+            </div>
+        
+            <div class="sign-up-container hidden">
+                <div class="form-container">
+                    <h2>Sign Up</h2>
+                    <form id="signup-form">
+                        <input type="text" id="full-name" placeholder="Full Name" required />
+                        <input type="email" id="new-email" placeholder="Enter your email" required />
+                        <input type="password" id="new-password" placeholder="Set password" required />
+                        <input type="date" id="dob" placeholder="Date of Birth" required />
+                        <input type="tel" id="phone" placeholder="Phone Number" required />
+                        <button type="submit">Sign Up</button>
+                    </form> <br>
+                    <p>Already have an account? <a href="#" id="login-link">Login</a></p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
